@@ -162,7 +162,7 @@ body {
 .team-item {
   list-style: none;
 }
-.team .text . {
+.team .text {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -258,15 +258,12 @@ body {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
-
   letter-spacing: 0.06em;
-
-  color: var (--second-text-color);
+  color: var(--second-text-color);
 }
 .text-pic {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
-
   color: var(--main-text-color);
 }
