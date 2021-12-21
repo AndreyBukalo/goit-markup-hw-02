@@ -3,15 +3,16 @@
   --second-text-color: #212121;
   --accent: #2196f3;
 }
-li {
-  list-style: none;
+
 }
 body {
-  font-family: Roboto; sans-serif; 
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   background-color: #fff;
+  
 }
-.title {
+.title{
   font-family: Roboto;
   font-weight: bold;
   color: var(--second-text-color);
@@ -24,6 +25,7 @@ body {
 .page-header,
 .logo,
 .link {
+   list-style: none;
    font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
@@ -33,14 +35,9 @@ body {
 
   text-decoration: none;
 }
-.link-studio {
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+
  
-  color: var(--accent);
-}
+
 
 .link:hover,
 .link:focus {
@@ -64,6 +61,7 @@ body {
   text-decoration: none;
 }
 .nav-contacts .mail {
+list-style: none;
   font-family: Roboto;
   text-decoration: none;
  font-weight: 500;
@@ -80,11 +78,14 @@ body {
   line-height: 1.14;
 
 }
+
+
+
 /* Герой */
 .hero,
 .title-hero {
   
-  
+  font-family: 'Roboto';
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -96,7 +97,7 @@ body {
 }
 .hero .btn {
   
-  
+  list-style: none;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.80;
@@ -121,8 +122,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
-.benefits .text {
+.list{
+  list-style: none;
+}
+.benefits  .text {
+ 
   list-style: none;
   font-size: 14px;
   line-height: 1.70;
@@ -156,7 +160,11 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
-.team .text {
+.team-item{
+ list-style: none;
+}
+.team  .text . {
+  
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -195,6 +203,7 @@ body {
 .footer,
 .tel,
 .mail {
+  font-family: Roboto;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -202,4 +211,61 @@ body {
   font-size: 14px;
   line-height: 1.14;
   
+}
+.filter-buttons 
+.filter-btn {
+  
+font-family: Roboto;
+
+width: 145px;
+height: 38px;
+left: 712px;
+top: 174px;
+font-weight:500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+background: #F5F4FA;
+border-radius: 4px;
+
+
+}
+.list-btn{
+  list-style: none;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent);
+  color: #fff;
+}
+
+.pic-list,.link {
+  list-style: none;
+  text-decoration: none;
+}
+.title-pic {
+  font-weight: bold;
+font-size: 18px;
+line-height: 2;
+
+
+letter-spacing: 0.06em;
+
+color: var (--second-text-color)
+
+  
+}
+.text-pic {
+  font-size: 16px;
+line-height: 1.8;
+letter-spacing: 0.03em;
+
+color: var(--main-text-color);
+
+ 
+
 }
