@@ -40,7 +40,9 @@ body {
   text-decoration: none;
   color: var(--accent);
 }
-
+.main-nav .nav-link.current {
+  color: var(--accent);
+}
 .main-nav,
 .nav-link {
   font-weight: 500;
