@@ -1,13 +1,13 @@
 :root {
-  --main-text-color: #757575;
-  --second-text-color: #212121;
-  --accent: #2196f3;
-  --header-bgc: #ececec;
-  --porfolio-bgc: #eeeeee;
-  --team-bgc: #f5f4fa;
-  --footer-bgc: #2f303a;
-  --white: #fff;
-  --mail-text: rgba(255, 255, 255, 0.6);
+  --main-text-color: #757575; /* Основной цвет текста */
+  --second-text-color: #212121; /* Вторичный цвет текста  */
+  --accent: #2196f3; /* Акцент,цвет кнопок ссылок лого */
+  --header-bgc: #ececec; /* фон хедера  */
+  --porfolio-bgc: #eeeeee; /* фон портфолио */
+  --team-bgc: #f5f4fa; /* фон команды */
+  --footer-bgc: #2f303a; /* фон футера и героя */
+  --white: #fff; /* белый цвет  */
+  --mail-text: rgba(255, 255, 255, 0.6); /* цвет контактов футера  */
 }
 
 body {
@@ -22,7 +22,7 @@ body {
   list-style: none;
 }
 /* Шапка и навигация */
-.page-header .header-logo {
+.page-header .web-logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -31,7 +31,7 @@ body {
   text-decoration: none;
   color: var(--second-text-color);
 }
-.page-header .header-logo-text {
+.page-header .studio-logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -113,11 +113,11 @@ body {
 
 /* Приемущества */
 
-.features-title {
+.features-header {
   display: none;
 }
 
-.features-list-title {
+.features-title {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
@@ -126,7 +126,7 @@ body {
   color: var(--second-text-color);
 }
 
-.features-list-text {
+.features-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -144,7 +144,7 @@ body {
 }
 
 /* Наша команда */
-.team .team-title {
+.team .team-header {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1;
@@ -154,7 +154,7 @@ body {
   background-color: var(--team-bgc);
 }
 
-.team-item-title {
+.team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1;
@@ -162,7 +162,7 @@ body {
   color: var(--second-text-color);
 }
 
-.team-item-text {
+.team-text {
   font-size: 16px;
   line-height: 1.1;
   letter-spacing: 0.03em;
@@ -173,7 +173,7 @@ body {
 .footer {
   background-color: var(--footer-bgc);
 }
-.footer-logo {
+.footer .web-logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -182,7 +182,7 @@ body {
   text-decoration: none;
   color: var(--white);
 }
-.footer-logo-text {
+.footer .studio-logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
