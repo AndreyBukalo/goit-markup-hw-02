@@ -14,9 +14,12 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: var(--main-text-color);
-  list-style: none;
   letter-spacing: 0.02em;
   background-color: var(--white);
+}
+
+.list {
+  list-style: none;
 }
 /* Шапка и навигация */
 .page-header .header-logo {
@@ -40,7 +43,6 @@ body {
 
 .main-nav,
 .nav-link {
-  list-style: none;
   font-weight: 500;
   line-height: 1.1;
   text-decoration: none;
@@ -114,24 +116,20 @@ body {
 .features-title {
   display: none;
 }
-.features-list {
-  list-style: none;
-}
-.features-list > .features-list-title {
+
+.features-list-title {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.03em;
-  list-style: none;
   text-transform: uppercase;
   color: var(--second-text-color);
 }
 
-.features-list > .features-list-text {
+.features-list-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  list-style: none;
 }
 
 /* Чем мы занимаемся */
@@ -144,9 +142,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-.about-img-list {
-  list-style: none;
-}
 
 /* Наша команда */
 .team .team-title {
@@ -158,16 +153,12 @@ body {
   color: var(--second-text-color);
   background-color: var(--team-bgc);
 }
-.team-list {
-  list-style: none;
-}
 
 .team-item-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1;
   letter-spacing: 0.03em;
-  list-style: none;
   color: var(--second-text-color);
 }
 
@@ -231,10 +222,6 @@ body {
   display: none;
 }
 
-.filter-button {
-  list-style: none;
-}
-
 .filter-button .filter {
   font-family: Roboto;
   font-weight: 500;
@@ -258,9 +245,8 @@ body {
 .projects-header {
   display: none;
 }
-.projects-list,
+
 .pojects-exmpl {
-  list-style: none;
   text-decoration: none;
 }
 .projects-title {
