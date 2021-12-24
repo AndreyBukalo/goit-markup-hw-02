@@ -11,23 +11,23 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Web Studio</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
-    <!-- Шапка -->
+    <!-- Шапка  Портфолио-->
     <header class="page-header">
-        <a class=logo href=""><span class=text>Web</span>Studio</a>
+        <a class=header-logo href=""><span class=header-logo-text>Web</span>Studio</a>
         <nav>
-            <ul class="nav">
-                <li class="link"> <a class="link-studio" href="index.html">Студия</a></li>
-                <li class="link"> <a class="link" href="portfolio.html">Портфолио</a></li>
-                <li class="link"> <a class="link" href="">Контакты</a></li>
+            <ul class="main-nav">
+                <li> <a class="studio-link" href="index.html">Студия</a></li>
+                <li> <a class="porfolio-link" href="portfolio.html">Портфолио</a></li>
+                <li> <a class="contacts-link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <div class=nav-contacts>
-            <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
-            <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <div class=main-nav-contacts>
+            <a class="main-nav-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="main-nav-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </div>
     </header>
 
@@ -35,82 +35,85 @@
     <main class="main-page">
 
         <!--Кнопки фильтра-->
-        <section class="filter-buttons">
+        <section class="projects-filter">
             <h2 class="filter-header">Меню фильтра</h2>
-           <ul class="list-btn">
-               <li>
-                    <button class="filter-btn" type="button">Все</button>
-               </li>
-            <li>
-                <button class="filter-btn" type="button">Веб-сайты</button>
-            </li>
-            <li>
-                <button class="filter-btn" type="button">Приложения</button>
-            </li>
-            <li>
-                <button class="filter-btn" type="button">Дизайн</button>
-            </li>
-            <li>
-                <button class="filter-btn" type="button">Маркетниг</button>
-            </li>
-           </ul>            
+            <!--Заголовок скрыт-->
+            <ul class="filter-button">
+                <li>
+                    <button class="filter one" type="button">Все</button>
+                </li>
+                <li>
+                    <button class="filter two" type="button">Веб-сайты</button>
+                </li>
+                <li>
+                    <button class="filter three" type="button">Приложения</button>
+                </li>
+                <li>
+                    <button class="filter four" type="button">Дизайн</button>
+                </li>
+                <li>
+                    <button class="filter five" type="button">Маркетниг</button>
+                </li>
+            </ul>
         </section>
-        <!-- Блок с картинками-ссылками-->
-        <section class="pic" >
-            <h1 class="pic-header">Примеры работ</h1>
-            <ul class="pic-list">
+        <!-- Проекты-->
+        <section class="projects">
+            <h1 class="projects-header">Примеры проектов</h1>
+            <!--Заголовок скрыт-->
+            <ul class="projects-list">
                 <li>
-                    <a class="link" href=""><img src="./images/notebook.jpg" alt="Ноутбук" width="370">
-                    <h2 class="title-pic">Технокряк</h2>
-                    <p class="text-pic" >Веб-Сайт</p>
+                    <a class="pojects-exmpl" href=""><img src="./images/notebook.jpg" alt="Ноутбук" width="370">
+                        <h2 class="projects-title">Технокряк</h2>
+                        <p class="pojects-text">Веб-Сайт</p>
                     </a>
                 </li>
                 <li>
-                    <a class="link" href=""><img src="./images/nba.jpg" alt="Постер-баскетболисты" width="370">
-                        <h2 class="title-pic">Постер New Orlean vs Golden Star</h2>
-                        <p class="text-pic">Дизайн</p>
+                    <a class="pojects-exmpl" href=""><img src="./images/nba.jpg" alt="Постер-баскетболисты" width="370">
+                        <h2 class="projects-title">Постер New Orlean vs Golden Star</h2>
+                        <p class="pojects-text">Дизайн</p>
                     </a>
                 </li>
                 <li>
-                    <a class="link" href=""><img src="./images/seafood.jpg" alt="Логотип ресторана Seafood" width="370">
-                        <h2 class="title-pic">Ресторан Seafood</h2>
-                        <p class="text-pic">Приложение</p>
+                    <a class="pojects-exmpl" href=""><img src="./images/seafood.jpg" alt="Логотип ресторана Seafood"
+                            width="370">
+                        <h2 class="projects-title">Ресторан Seafood</h2>
+                        <p class="pojects-text">Приложение</p>
                     </a>
                 </li>
                 <li>
-                    <a  class="link" href=""><img src="./images/Headphones.jpg" alt="Наушники" width="370">
-                        <h2 class="title-pic">Проэкт Prime</h2>
-                        <p class="text-pic">Маркетниг</p>
+                    <a class="pojects-exmpl" href=""><img src="./images/Headphones.jpg" alt="Наушники" width="370">
+                        <h2 class="projects-title">Проект Prime</h2>
+                        <p class="pojects-text">Маркетниг</p>
                     </a>
                 </li>
                 <li>
-                    <a  class="link" href=""><img src="./images/twoboxes.jpg" alt="Две коробки" width="370">
-                        <h2 class="title-pic">Проект Boxes</h2>
-                        <p class="text-pic">Приложение</p>
+                    <a class="pojects-exmpl" href=""><img src="./images/twoboxes.jpg" alt="Две коробки" width="370">
+                        <h2 class="projects-title">Проект Boxes</h2>
+                        <p class="pojects-text">Приложение</p>
                     </a>
                 </li>
                 <li>
-                    <a  class="link" href=""><img src="./images/pc.jpg" alt="Монитор Пк" width="370">
-                        <h2 class="title-pic">Inspiration has no Borders</h2>
-                        <p class="text-pic">Веб-Сайт</p>
+                    <a class="pojects-exmpl" href=""><img src="./images/pc.jpg" alt="Монитор Пк" width="370">
+                        <h2 class="projects-title">Inspiration has no Borders</h2>
+                        <p class="pojects-text">Веб-Сайт</p>
                     </a>
                 </li>
                 <li>
-                    <a  class="link" href=""><img src="./images/book.jpg" alt="Книга" width="370">
-                        <h2 class="title-pic">Издание Limited Edition</h2>
-                        <p class="text-pic">Дизайн</p>
+                    <a class="pojects-exmpl" href=""><img src="./images/book.jpg" alt="Книга" width="370">
+                        <h2 class="projects-title">Издание Limited Edition</h2>
+                        <p class="pojects-text">Дизайн</p>
                     </a>
                 </li>
                 <li>
-                    <a  class="link" href=""><img src="./images/label.jpg" alt="Изображение Лейбы" width="370">
-                        <h2 class="title-pic">Проект LAB</h2>
-                        <p class="text-pic">Маркетниг</p>
+                    <a class="pojects-exmpl" href=""><img src="./images/label.jpg" alt="Изображение Лейбы" width="370">
+                        <h2 class="projects-title">Проект LAB</h2>
+                        <p class="pojects-text">Маркетниг</p>
                     </a>
                 </li>
                 <li>
-                    <a class="link" href=""><img src="./images/macbook.jpg" alt="Макбук" width="370">
-                        <h2 class="title-pic">Growing Business</h2>
-                        <p class="text-pic">Приложение</p>
+                    <a class="pojects-exmpl" href=""><img src="./images/macbook.jpg" alt="Макбук" width="370">
+                        <h2 class="projects-title">Growing Business</h2>
+                        <p class="pojects-text">Приложение</p>
                     </a>
                 </li>
             </ul>
@@ -119,16 +122,17 @@
         </section>
     </main>
 
-        
+
 
     <footer class="footer">
-        <a class="logo" href=""><span class="text">Web</span>Studio</a>
-        <address class="adress">
-            <span class="adress-text"> г. Киев, пр-т Леси Украинки, 26</span> <br>
-            <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
-            <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="footer-logo" href=""><span class="footer-logo-text">Web</span>Studio</a>
+        <address class="main-adress">
+            <p class="adress-text"> г. Киев, пр-т Леси Украинки, 26</p>
+            <a class="footer-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="footer-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </address>
-    
+
     </footer>
-        </body>
+</body>
+
 </html>
