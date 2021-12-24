@@ -118,7 +118,6 @@ body {
 }
 
 .features-title {
-  font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.03em;
@@ -127,7 +126,6 @@ body {
 }
 
 .features-text {
-  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
@@ -155,8 +153,8 @@ body {
 }
 
 .team-title {
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
@@ -194,7 +192,6 @@ body {
 
 .footer .adress-text {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--white);
